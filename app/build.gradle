@@ -64,6 +64,12 @@ android {
             keyAlias props['signing.ccc34c3-release.keyAlias']
             keyPassword props['signing.ccc34c3-release.keyPassword']
         }
+        lswt2018 {
+            storeFile file(props['signing.lswt2018-release.keystoreFilePath'])
+            storePassword props['signing.lswt2018-release.keystorePassword']
+            keyAlias props['signing.lswt2018-release.keyAlias']
+            keyPassword props['signing.lswt2018-release.keyPassword']
+        }
     }
 
     def defaultDimension = "default"
@@ -109,6 +115,26 @@ android {
             buildConfigField "boolean", "SHOW_APP_DISCLAIMER", "false"
             buildConfigField "boolean", "COMPOSE_EVENT_URL_FROM_SLUG", "false"
             buildConfigField "String", "TRACE_DROID_EMAIL_ADDRESS", '"tobias.preuss+34c3@googlemail.com"'
+            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/34C3/public/events/%s/feedback/new"'
+        }
+        lswt2018 {
+            dimension defaultDimension
+            applicationId "org.aksw.lswt2018.schedule"
+            signingConfig signingConfigs.lswt2018
+            buildConfigField "String", "SCHEDULE_URL", '"http://10.0.2.2:4000/schedule.xml"'
+            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '""'
+            buildConfigField "String", "SCHEDULE_EVENT_PART", '"%s"'
+            buildConfigField "String", "SCHEDULE_PART", '""'
+            buildConfigField "String", "VENUE", '"salles-de-pologne"'
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2018"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "06"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "18"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2018"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "06"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "18"
+            buildConfigField "boolean", "SHOW_APP_DISCLAIMER", "false"
+            buildConfigField "boolean", "COMPOSE_EVENT_URL_FROM_SLUG", "false"
+            buildConfigField "String", "TRACE_DROID_EMAIL_ADDRESS", '"arndt@informatik.uni-leipzig.de"'
             buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/34C3/public/events/%s/feedback/new"'
         }
     }
