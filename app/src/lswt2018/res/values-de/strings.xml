@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LSWT2018 Fahrplan</string>
-    <string name="app_hardcoded_subtitle">18. Juni 2018, Leipzig, Haunstraße 16-18</string>
+    <string name="app_name">LSWT2018</string>
+    <string name="app_hardcoded_subtitle">18. Juni 2018, Leipzig, Hainstraße 16-18</string>
     <string name="conference_url">
         <![CDATA[<a href="https://www.leds-projekt.de/lswt2018.html">https://www.leds-projekt.de/lswt2018.html</a>]]>
     </string>
@@ -9,9 +9,9 @@
         <![CDATA[<a href="https://github.com/white-gecko/EventFahrplan">Quellcode</a>]]>
     </string>
     <string name="google_play_store">
-        <![CDATA[<a href="https://play.google.com/store/apps/details?id=info.metadude.android.congress.schedule">Eintrag im Google PlayStore</a>]]>
+        <![CDATA[<a href="https://play.google.com/store/apps/details?id=org.aksw.lswt2018.schedule">Eintrag im Google PlayStore</a>]]>
     </string>
     <string name="copyright_logo">
-        <![CDATA[34C3: tuwat! Design von <a href="https://twitter.com/gregorsedlag">Gregor Sedlag</a>]]>
+        <![CDATA[LSWT2018 Design von <a href="https://twitter.com/white-gecko">Natanael Arndt</a>]]>
     </string>
 </resources>
