@@ -133,9 +133,9 @@ android {
             buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "06"
             buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "18"
             buildConfigField "boolean", "SHOW_APP_DISCLAIMER", "false"
-            buildConfigField "boolean", "COMPOSE_EVENT_URL_FROM_SLUG", "false"
+            buildConfigField "boolean", "COMPOSE_EVENT_URL_FROM_SLUG", "true"
             buildConfigField "String", "TRACE_DROID_EMAIL_ADDRESS", '"arndt@informatik.uni-leipzig.de"'
-            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/34C3/public/events/%s/feedback/new"'
+            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '""'
         }
     }
 
