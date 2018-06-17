@@ -121,7 +121,7 @@ android {
             dimension defaultDimension
             applicationId "org.aksw.lswt2018.schedule"
             signingConfig signingConfigs.lswt2018
-            buildConfigField "String", "SCHEDULE_URL", '"http://10.0.2.2:4000/schedule.xml"'
+            buildConfigField "String", "SCHEDULE_URL", '"https://www.leds-projekt.de/schedule.xml"'
             buildConfigField "String", "SCHEDULE_DOMAIN_PART", '""'
             buildConfigField "String", "SCHEDULE_EVENT_PART", '"%s"'
             buildConfigField "String", "SCHEDULE_PART", '""'
