@@ -5,37 +5,37 @@
 
     <!-- Default state -->
     <color name="event_border_default">#595959</color>
-    <color name="event_border_default_art_culture">#b6aa04</color>
-    <color name="event_border_default_ccc">#7e992e</color>
+    <color name="event_border_default_tutorial">#77d296</color>
+    <color name="event_border_default_vortragsraum">#6cb2cf</color>
     <color name="event_border_default_entertainment">#7E992E</color>
     <color name="event_border_default_ethics_society_politics">#b359b3</color>
-    <color name="event_border_default_hardware_making">#b36836</color>
+    <color name="event_border_default_pause">#daa17c</color>
     <color name="event_border_default_resilience">#701e2b</color>
-    <color name="event_border_default_science">#2e8499</color>
-    <color name="event_border_default_security">#50257a</color>
+    <color name="event_border_default_dachterrasse">#2e8499</color>
+    <color name="event_border_default_keynote">#b72c37</color>
     <color name="event_border_default_self_organized_sessions">#3056bf</color>
 
     <!-- Accent color -->
     <color name="event_border_accent">#8c8c8c</color>
-    <color name="event_border_accent_art_culture">#cec006</color>
-    <color name="event_border_accent_ccc">#8cba02</color>
+    <color name="event_border_accent_tutorial">#39d06e</color>
+    <color name="event_border_accent_vortragsraum">#39a4d0</color>
     <color name="event_border_accent_entertainment">#8cba02</color>
     <color name="event_border_accent_ethics_society_politics">#ff4dff</color>
-    <color name="event_border_accent_hardware_making">#FF6600</color>
+    <color name="event_border_accent_pause">#d5956a</color>
     <color name="event_border_accent_resilience">#A41C31</color>
-    <color name="event_border_accent_science">#00CCFF</color>
-    <color name="event_border_accent_security">#8702ed</color>
+    <color name="event_border_accent_dachterrasse">#00CCFF</color>
+    <color name="event_border_accent_keynote">#be1b28</color>
     <color name="event_border_accent_self_organized_sessions">#4174ff</color>
 
     <!-- Highlight state -->
     <color name="event_border_highlight">
         @color/event_border_accent
     </color>
-    <color name="event_border_highlight_art_culture">
-        @color/event_border_accent_art_culture
+    <color name="event_border_highlight_tutorial">
+        @color/event_border_accent_tutorial
     </color>
-    <color name="event_border_highlight_ccc">
-        @color/event_border_accent_ccc
+    <color name="event_border_highlight_vortragsraum">
+        @color/event_border_accent_vortragsraum
     </color>
     <color name="event_border_highlight_entertainment">
         @color/event_border_accent_entertainment
@@ -43,17 +43,17 @@
     <color name="event_border_highlight_ethics_society_politics">
         @color/event_border_accent_ethics_society_politics
     </color>
-    <color name="event_border_highlight_hardware_making">
-        @color/event_border_accent_hardware_making
+    <color name="event_border_highlight_pause">
+        @color/event_border_accent_pause
     </color>
     <color name="event_border_highlight_resilience">
         @color/event_border_accent_resilience
     </color>
-    <color name="event_border_highlight_science">
-        @color/event_border_accent_science
+    <color name="event_border_highlight_dachterrasse">
+        @color/event_border_accent_dachterrasse
     </color>
-    <color name="event_border_highlight_security">
-        @color/event_border_accent_security
+    <color name="event_border_highlight_keynote">
+        @color/event_border_accent_keynote
     </color>
     <color name="event_border_highlight_self_organized_sessions">
         @color/event_border_accent_self_organized_sessions
@@ -63,11 +63,11 @@
     <color name="event_border_accent_highlight">
         @color/event_border_default
     </color>
-    <color name="event_border_accent_highlight_art_culture">
-        @color/event_border_default_art_culture
+    <color name="event_border_accent_highlight_tutorial">
+        @color/event_border_default_tutorial
     </color>
-    <color name="event_border_accent_highlight_ccc">
-        @color/event_border_default_ccc
+    <color name="event_border_accent_highlight_vortragsraum">
+        @color/event_border_default_vortragsraum
     </color>
     <color name="event_border_accent_highlight_entertainment">
         @color/event_border_default_entertainment
@@ -75,17 +75,17 @@
     <color name="event_border_accent_highlight_ethics_society_politics">
         @color/event_border_default_ethics_society_politics
     </color>
-    <color name="event_border_accent_highlight_hardware_making">
-        @color/event_border_default_hardware_making
+    <color name="event_border_accent_highlight_pause">
+        @color/event_border_default_pause
     </color>
     <color name="event_border_accent_highlight_resilience">
         @color/event_border_default_resilience
     </color>
-    <color name="event_border_accent_highlight_science">
-        @color/event_border_default_science
+    <color name="event_border_accent_highlight_dachterrasse">
+        @color/event_border_default_dachterrasse
     </color>
-    <color name="event_border_accent_highlight_security">
-        @color/event_border_default_security
+    <color name="event_border_accent_highlight_keynote">
+        @color/event_border_default_keynote
     </color>
     <color name="event_border_accent_highlight_self_organized_sessions">
         @color/event_border_default_self_organized_sessions
